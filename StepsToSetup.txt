@@ -1,0 +1,15 @@
+                    INITIAL SETUP FOR PROJECT
+            
+
+copy paste the proejct and then create an environment
+Activate the environment
+    >>> conda activate imagecaptioning(your env name)
+Install this packages in this environment
+    >>> pip install tensorflow==1.15.0
+Copy the "tensorflow model" folder from the reference project
+    >>> cd Tensorflow_models/models/tutorials/image/imagenet
+    >>> python classify_image.py --model_dir /inception 
+
+
+
+--------------------------------------------------------------------------------------
