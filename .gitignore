@@ -3,6 +3,11 @@
 glove.6B*
 coco/data/*
 !coco/data/.gitkeep
+
+models/LSTM/weights/*
+!models/LSTM/weights/model-19*
+!models/LSTM/weights/checkpoint
+models/LSTM/graph
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -133,3 +138,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.DS_Store
